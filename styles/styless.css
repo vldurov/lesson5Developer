@@ -1,0 +1,453 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;600;700&family=Roboto:wght@700&family=Work+Sans:wght@500;600;700&display=swap');
+
+:root {
+    --orange: #FFB742;
+    --black : #212529;
+    --poppins : 'Poppins', sans-serif;
+    --inter: 'Inter', sans-serif;
+    --roboto: 'Roboto', sans-serif;
+    --work-sans: 'Work Sans', sans-serif;
+    font-size: 10px;
+}
+
+body {
+    background-color: var(--black);
+    font-family: var(--poppins);
+}
+
+body, ul, p {
+    margin: 0;
+    padding: 0;
+} 
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.header-nav {
+    display: flex;
+    width: 40%;
+    list-style: none;
+    justify-content: space-between;
+    text-transform: capitalize;
+}
+
+.header-nav a:hover {
+    color: var(--orange);
+    transition: all .3s;
+}
+
+.header-btn a {
+    display: inline-block;
+    background-color: var(--orange);
+    border: 2px solid var(--orange);
+    width: 121px;
+    padding: 10px 0;
+    text-align: center;
+    color: var(--black);
+    border-radius: 50px;
+    font-weight: 700;
+}
+
+.avatar {
+    text-align: center;
+    margin: 7.8rem 0;
+    text-transform: capitalize;
+    font-family: var(--inter);
+    font-weight: 700;
+}
+
+.avatar-overview {
+    color: white;
+}
+
+.avatar-overview p {
+    margin: 0;
+}
+
+.avatar-overview p:first-child {
+    font-size: 3.2rem;
+} 
+
+.avatar-overview p:nth-child(2) {
+    font-size: 4.8rem;
+    margin: 1rem 0;
+}
+
+.avatar-overview p:last-child {
+    font-size: 2.4rem;
+    font-weight: 400;
+    margin: 4rem 0;
+} 
+
+.avatar-overview span {
+    color: var(--orange);
+    text-decoration: underline;
+}
+
+.card-wraper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8.5rem;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    background-color: rgba(56, 62, 69, 0.44);
+    color: white;
+    padding: 2rem 0;
+    border-radius: .625rem;
+    text-align: center;
+    font-family: var(--inter);
+    font-weight: 700;
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.card-overview p:first-child {
+    color: var(--orange);
+    font-size: 3.2rem;
+}
+
+.cards:hover {
+    background: linear-gradient(94.3deg, #FFB742 0%, rgba(255, 123, 66, 0.76) 99.33%);
+    border-radius: .625rem;
+}
+
+.cards:hover .card-overview p {
+    color: var(--black);
+}
+
+.skills {
+    margin: 13.8rem 0 0 0;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-img {
+    display: flex;
+    width: 45%;
+}
+
+.skills-text {
+    width: 50%;
+}
+
+.skills-img img {
+    width: 100%;
+}
+
+.skills-text-btn {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.08);
+    color: var(--orange);
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0 1.5rem;
+    border-radius: 3.12rem;
+}
+
+.skills-text-main p:first-child {
+    color: white;
+    font-family: var(--roboto);
+    font-weight: 700;
+    font-size: 4.8rem;
+}
+
+.skills-text-main p:last-child {
+    color: #D4D4D4;
+    font-family: var(--poppins);
+    font-weight: 400;
+    font-size: 1.6rem;
+    margin: 3rem 0;
+}
+
+.skills-text a {
+    display: inline-block;
+    background-color: var(--orange);
+    color: var(--black);
+    font-weight: 700;
+    font-size: 1.8rem;
+    padding: .625rem 2.5rem;
+    border-radius: 3.12rem;
+}
+
+.my-skils {
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-skils-text {
+    width: 50%;
+}
+
+.my-skils-pic {
+    display: flex;
+    flex-wrap: wrap;
+    width: 48rem;
+    align-self: baseline;
+}
+
+.my-skills-text-btn {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.08);
+    color: var(--orange);
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0 1.5rem;
+    border-radius: 3.12rem;
+}
+
+.my-skills-text-main p:first-child {
+    color: white;
+    font-family: var(--roboto);
+    font-weight: 700;
+    font-size: 4.8rem;
+}
+
+.my-skills-text-main p:last-child {
+    color: #D4D4D4;
+    font-family: var(--poppins);
+    font-weight: 400;
+    font-size: 1.6rem;
+    margin: 3rem 0;
+}
+
+.my-skils-text a {
+    display: inline-block;
+    background-color: var(--orange);
+    color: var(--black);
+    font-weight: 700;
+    font-size: 1.8rem;
+    padding: .625rem 2.5rem;
+    border-radius: 3.12rem;
+}
+
+.logo-pic {
+    display: flex;
+    width: 5rem;
+    height: 5rem;
+    background-color: #383E45;
+    border-radius: .625rem;
+    text-align: center;
+    align-items: center;
+    margin: .5rem;
+    padding: 1rem;
+}
+
+.logo-pic img {
+    width: 100%;
+}
+
+.logo-pic:hover {
+    background-color: rgba(255, 183, 66, 0.5);
+    transition: all .4s;
+}
+
+.my-skils-pic a:nth-child(11) img {
+    width: 65%;
+}
+
+.my-work {
+    margin-top: 8.5rem;
+}
+
+.my-work {
+    text-align: center;
+}
+
+.my-work-text p:first-child {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.08);
+    color: var(--orange);
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0 1.5rem;
+    border-radius: 3.12rem;
+}
+
+.my-work-text p:last-child {
+    color: white;
+    font-family: var(--roboto);
+    font-weight: 700;
+    font-size: 4.8rem;
+}
+
+.my-work-nav ul {
+    display: flex;
+    width: 50%;
+    list-style: none;
+    justify-content: space-between;
+    text-transform: capitalize;
+    margin: 3.5rem auto;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: white;
+    transition: all .4rem;
+}
+
+.my-work-nav li:hover {
+    background-color: var(--orange);
+    color: var(--black);
+    border-radius: .18rem;
+    padding: .31rem 1.25rem;
+    transition: all .4s;
+}
+
+.my-work-img {
+    margin-top: 5rem;
+    display: flex;
+}
+
+.my-work-img div img {
+    width: 100%;
+    margin-bottom: 4rem;
+}
+
+.my-work-img div {
+    width: 30%;
+    margin: 0 2rem;
+}
+
+.review {
+    text-align: center;
+    margin-top: 8.43rem;
+}
+
+.review > p:first-child {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.08);
+    color: var(--orange);
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0 1.5rem;
+    border-radius: 3.12rem;
+}
+
+.review > p:nth-child(2) {
+    color: white;
+    font-family: var(--roboto);
+    font-weight: 700;
+    font-size: 4.8rem;
+    text-transform: capitalize;
+}
+
+.review-wrap {
+    display: flex;
+    justify-content: space-between;
+    margin: 5.62rem 0;
+    text-align: initial;
+}
+
+.review-wrap > div {
+    justify-content: space-between;
+    width: 25%;
+    background: white;
+    border-radius: .49rem;
+    padding: 6rem 3rem;
+}
+
+.review-text {
+    padding: 2rem 0;
+    font-weight: 400;
+    font-size: 2rem;
+    color: var(--black);
+}
+
+.review-avatar {
+    display: flex;
+}
+
+.review-avatar p:first-child {
+    color: black;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.review-avatar p:last-child {
+    color: black; 
+    font-size: 1.6rem; 
+    font-weight: 400;
+}
+
+.review-avatar p {
+    margin-left: 3rem;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15.8rem;
+    padding-top: 9.25rem;
+    height: 29.37rem;
+    background-color: #1C1C1C;
+    color: #7B7B7B;
+    font-family: var(--work-sans);
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 3rem;
+}
+
+footer div:first-child > p:first-child {
+    display: inline;
+    font-family: var(--poppins);
+    font-weight: 700;
+    font-size: 3.2rem;
+    color: var(--orange);
+    text-align: center;
+}
+
+footer div:first-child > p:last-child {
+    display: inline;
+    font-family: var(--work-sans);
+    font-weight: 600;
+    font-size: 1.6rem;
+    text-align: right;
+    color: #D4D4D4;
+}
+
+footer div {
+    width: 20%;
+    padding-left: 4rem;
+}
+
+footer p {
+    font-size: 2.1rem;
+    font-weight: 700;
+    color: #F5FBF2;
+}
+
+.links ul, .media ul {
+    list-style: none;
+}
+
+.news a, .media a, .links a {
+    color: #7B7B7B;
+    text-decoration: none;
+}
+
